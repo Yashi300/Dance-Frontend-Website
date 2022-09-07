@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+#navbar{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 27px 90px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid #fff;
+}
+#navbar ul{
+display:flex;
+flex-direction: row;
+/* justify-content:center; */
+align-items: center;
+}
+#navbar li{
+list-style:none;
+} 
+#navbar li a:hover{
+    font-weight: bold;
+    color:grey;
+    font-size: 30px;
+    text-shadow: none;
+}
+#navbar li a{
+    text-shadow: 3px 4px 3px black;
+    text-decoration: none;
+    padding: 9px 27px;
+    color: white;
+    /* font-family: 'Caveat Brush', cursive; */
+    font-family: 'Moon Dance', cursive;
+    font-size: 23px;
+    font-weight: bold;
+}
+#picturesec{
+    background: url(../static/dancer-g5a34b1eac_1920.jpg) no-repeat center center/cover;
+font-family: cursive;
+color:white;
+display:flex;
+justify-content: center;
+align-items: center;
+height: 533px;
+    background-size: 1534px 605px;
+}
+#headlove{
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    text-shadow: 3px 4px 2px black;
+}
+#love1{
+    font-size: 27px;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 3px 4px 2px black;
+}
+#love2{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px; 
+    text-shadow: 3px 4px 2px black;
+}
+#missi{
+   
+    text-align: center;
+    height:350px;
+    font-weight: bold;
+    /* font-size: 32px; */
+    font-family: 'Caveat Brush', cursive;
+}
+#rub{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.cards h3{
+    color: black;
+    text-align: center;
+    font-size: 23px;
+    padding-top: 12px;
+    font-family: 'Acme', sans-serif;
+}
+.cards{
+    background-color: rgb(252, 225, 230);
+    border-radius: 5px;
+    width: 450px;
+    height: 250px;
+    border: 3px solid black;
+    box-shadow: 13px -9px 16px -6px black;
+}
+.cards:hover{
+    cursor: pointer;
+    border-radius: 5px;
+    width:500px;
+    height:270px;
+    border:3px solid black;
+}
+.card-con{
+    padding:32px 12px;
+}
+.card-con p{
+    font-family: 'Cookie', cursive;
+    font-size: 25px;
+}
+.card-img img{
+    height: 198px;
+    width: 152px;
+}
+.card-box{
+    display:flex;
+    flex-direction: row;
+}
+#missi h1{
+    padding-top: 15px;
+     font-size: 32px;
+}
+#sponsec {
+    text-align: center;
+    padding-top: 12px;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: 'Caveat Brush', cursive;
+    height:300px;
+    background-color: rgb(241, 214, 241);
+}
+.sponimg{
+    margin: 22px 25px;
+    height: 163px;
+    width: 173px;
+}
+#sponsers{
+   height:191px;
+   width:1000px;
+   margin:auto;
+}
+#foot{
+height:60px;
+background-color: black;
+display:flex;
+justify-content: center;
+align-items: center;
+color:white;
+font-family: cursive;
+font-size: 15px;
+}
+#logo{
+    display:flex;
+    color:white;
+    align-items: center;
+    margin:0px 14px;
+    text-shadow: 3px 4px 2px black;
+}
+#logo img{
+    height:32px;
+    filter: invert(1);
+}
+.container{
+    height:1400px;
+    width:100%;
+    background: url(../static/ballet.jpg) no-repeat center center/cover;
+}
+.boxxx{
+    padding: 80px 45px 45px 45px;
+}
+.boxx{
+    margin:12px;
+    height:300px;
+    width:600px;
+    /* border:2px solid black; */
+    background-color: #e9d5d8;
+    border-radius: 13px;
+}
+.boxx h1{
+    text-align: center;
+    font-family: cursive;
+    padding:22px
+}
+.boxx p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:32px;
+}
+/* .left{
+   float:left; 
+}
+.right{
+   float:right; 
+} */

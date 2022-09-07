@@ -1,0 +1,59 @@
+doctype html
+html 
+  head 
+    title Grace Beater | Dancer's Palace 
+    style 
+      include ../static/style.css
+  body 
+    nav#navbar 
+      ul 
+        div#logo
+           img(src="../static/logo.png")
+           | GB
+        li #[a(href="/") Home ]
+        li #[a(href="/") About ]
+        li #[a(href="/") Services ]
+        li #[a(href="/") Class Info ]
+        li #[a(href="/") Contact Us]
+    section#picturesec 
+      div
+        div#headlove  Grace Beater
+        p#love1 When you dance,your purpose is not to get to a certain
+        p#love1 on floor.It's to enjoy each step along the way.
+        div#love2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -WAYNE DYER
+    section#missi 
+      h1 Our mission
+      div#rub
+        div.cards 
+          h3 Dance Workshops
+          div.card-box
+            div.card-img 
+              img(src="../static/logo1.png")
+            div.card-con
+              p Every day brings a chance for you to draw in a breath, kick off your shoes and dance.  
+        div.cards
+          h3 Dance the way you like
+          div.card-box
+            div.card-img 
+              img(src="../static/logo2.png")
+            div.card-con
+              p He who would learn to fly one day must first learn to stand and walk and run and climb and dance; one cannot fly into flying.  
+        div.cards
+          h3 Learn With Experts
+          div.card-box
+            div.card-img 
+              img(src="../static/logo3.png")
+            div.card-con
+              p Nobody cares if you can't dance well. Just get up and dance. Great dancers are great because of their passion.
+    section#sponsec 
+      |Our Sponsers
+      div#sponsers 
+        img(src="../static/spon1.png", alt="Sponser Image", class="sponimg")
+        img(src="../static/spon2.png", alt="Sponser Image", class="sponimg")
+        img(src="../static/spon3.png", alt="Sponser Image", class="sponimg")
+        img(src="../static/spon4.png", alt="Sponser Image", class="sponimg")
+    footer#foot 
+      |Copyright © 2021 GraceBeater.com | All rights reserved
+    script 
+      include ../static/index.js    
+      
